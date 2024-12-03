@@ -1,0 +1,2 @@
+0 0 * * * /home/user/VaultWarden/vw-data/backup.sh
+0 1 * * * rclone copy /home/user/backups/vaultwarden backupvw:Backups
